@@ -1,6 +1,6 @@
-// ===== LANGUAGE TOGGLE (EN / PT-BR) =====
+// ===== LANGUAGE SWITCH (EN / PT-BR / ES) =====
 // English text is captured from the HTML itself on first load.
-// To edit Portuguese text, change the strings in PT below.
+// To edit Portuguese or Spanish text, change the strings in PT / ES below.
 
 const LANG_KEY = 'cw-lang';
 
@@ -16,9 +16,8 @@ const PT = {
     'nav.contact': 'Contato',
 
     // Hero
-    'hero.subtitle': 'Astrologia Psicológica',
-    'hero.title': 'Compreenda os Padrões que <span>Moldam Sua Vida</span>',
-    'hero.desc': 'Mapas natais, trânsitos e sinastrias fundamentados na tradição de Liz Greene — enriquecidos por mais de vinte anos de prática terapêutica em Medicina Tradicional Chinesa, yoga e Ayurveda.',
+    'hero.title': 'O Cosmos <span>Fala</span>',
+    'hero.desc': 'Mapas natais, trânsitos e sinastrias — enriquecidos por mais de vinte anos de prática terapêutica em Medicina Tradicional Chinesa, yoga e Ayurveda.',
     'hero.book': 'Agendar uma Leitura',
     'hero.samples': 'Ver Relatórios de Exemplo',
 
@@ -70,11 +69,11 @@ const PT = {
     'rep3.desc': 'Um exemplo de análise de relacionamento entre dois mapas — como compatibilidade, dinâmicas e áreas de crescimento são exploradas.',
 
     // Newsletter
-    'news.h2': 'A Carta Semanal de Trânsitos',
-    'news.sub': 'Trânsitos astrológicos e reflexões, entregues na sua caixa de entrada uma vez por semana',
-    'news.tier': 'Assinante Semanal',
-    'news.per': '/semana',
-    'news.ul': '<li>Os principais trânsitos astrológicos da semana, explicados</li><li>O que o céu da semana significa para cada signo</li><li>Orientações de lua nova e lua cheia</li><li>Escrito em linguagem acessível e psicologicamente fundamentada</li><li>Cancele quando quiser</li>',
+    'news.h2': 'A Carta Mensal de Trânsitos',
+    'news.sub': 'Trânsitos astrológicos e reflexões, entregues na sua caixa de entrada uma vez por mês',
+    'news.tier': 'Assinatura Mensal da Newsletter',
+    'news.per': '/mês',
+    'news.ul': '<li>Os principais trânsitos astrológicos do mês, explicados</li><li>O que o céu do mês significa para cada signo</li><li>Orientações de lua nova e lua cheia</li><li>Escrito em linguagem acessível e psicologicamente fundamentada</li><li>Cancele quando quiser</li>',
     'news.btn': 'Assinar',
     'news.note': 'Pagamento seguro e cancelamento fácil, gerenciados pela nossa plataforma de newsletter.',
 
@@ -104,37 +103,136 @@ const PT = {
     'footer.text': '© 2026 Prema Moksha Astrology. Todos os direitos reservados. | Feito com amor cósmico ✦'
 };
 
+const ES = {
+    // Navigation
+    'nav.home': 'Inicio',
+    'nav.about': 'Sobre Mí',
+    'nav.services': 'Servicios',
+    'nav.reports': 'Informes de Ejemplo',
+    'nav.newsletter': 'Boletín',
+    'nav.classes': 'Cursos',
+    'nav.blog': 'Blog',
+    'nav.contact': 'Contacto',
+
+    // Hero
+    'hero.title': 'El Cosmos <span>Habla</span>',
+    'hero.desc': 'Cartas natales, tránsitos y sinastrías — enriquecidas por más de veinte años de práctica terapéutica en Medicina Tradicional China, yoga y Ayurveda.',
+    'hero.book': 'Reservar una Lectura',
+    'hero.samples': 'Ver Informes de Ejemplo',
+
+    // About
+    'about.h2': 'Sobre Mí',
+    'about.sub': 'Astróloga, terapeuta y estudiosa del cosmos de toda la vida',
+    'about.h3': 'Bienvenidos',
+    'about.p1': 'La astrología ha sido para mí un campo de estudio de toda la vida. Mi pasión por el tema comenzó a los doce años, cuando la dureza de la existencia despertó en mí el deseo de comprender los patrones detrás de la experiencia humana y de los acontecimientos que moldean nuestras vidas.',
+    'about.p2': 'Mis estudios formales comenzaron en 1998 en el Instituto Ganesha de Prácticas de Sanación en Río de Janeiro, en un programa de Astropsicología basado en las enseñanzas de Liz Greene y la tradición de la astrología psicológica desarrollada en Londres en los años 1970. Esta formación inicial estableció una base sólida en los aspectos psicológicos de la astrología moderna.',
+    'about.p3': 'Durante muchos años, el trabajo astrológico permaneció principalmente dentro de un círculo de amigos y familiares, con especial énfasis en cartas natales, tránsitos y progresiones. Pero en 2023 esa historia cambió — la práctica informal se transformó en trabajo astrológico profesional, cuando decidí dedicarme a mi camino de toda la vida con la astrología como carrera.',
+    'about.p4': 'Mi práctica se basa en más de veinte años de formación en disciplinas terapéuticas, incluyendo Medicina Tradicional China, yoga y Ayurveda. Esta formación multidisciplinaria ofrece una perspectiva adicional al abordar las complejidades de la experiencia humana y contribuye a un análisis astrológico más completo — lo que considero mi diferencial.',
+    'about.p5': '<em>Gracias por estar aquí. Espero que podamos expandir juntos nuestro conocimiento de la astrología. Será un placer compartir este viaje contigo.</em>',
+    'about.cta': 'Trabaja Conmigo',
+
+    // Services
+    'shop.h2': 'Servicios',
+    'shop.sub': 'Lecturas y análisis escritos — por Zoom o en persona',
+    'shop.book': 'Reservar',
+    'shop.soon': 'Próximamente',
+    'svc1.h3': 'Carta Natal',
+    'svc1.desc': 'Un análisis escrito completo de tu carta natal — tus fortalezas, desafíos, patrones de vida y el llamado de tu alma — fundamentado en la tradición de la astrología psicológica.',
+    'svc1.ul': '<li>✦ Informe escrito detallado</li><li>✦ Enfoque de astrología psicológica</li><li>✦ Tuyo para guardar y revisitar</li>',
+    'svc2.h3': 'Tránsitos y Progresiones',
+    'svc2.desc': 'Un análisis escrito de los ciclos planetarios que activan tu carta en este momento — lo que este capítulo de tu vida te está pidiendo y cómo trabajar con ello de forma consciente.',
+    'svc2.ul': '<li>✦ Tránsitos actuales y próximos</li><li>✦ Progresiones secundarias</li><li>✦ Timing para decisiones importantes</li>',
+    'svc3.h3': 'Consulta',
+    'svc3.desc': 'Una sesión en vivo e individual, por Zoom o en persona, sin informe escrito. Trae tus preguntas y exploraremos tu carta juntos.',
+    'svc3.ul': '<li>✦ Zoom o en persona</li><li>✦ Formato de conversación</li><li>✦ Ideal como seguimiento o primer contacto</li>',
+    'svc4.h3': 'Sinastría',
+    'svc4.desc': 'Un análisis escrito de compatibilidad entre dos cartas — parejas románticas, familiares o socios de negocios — revelando las dinámicas, fortalezas y áreas de crecimiento entre ustedes.',
+    'svc4.ul': '<li>✦ Dos cartas analizadas en conjunto</li><li>✦ Dinámicas y patrones de la relación</li><li>✦ Informe escrito incluido</li>',
+
+    // Sample Reports
+    'reports.h2': 'Informes de Ejemplo',
+    'reports.sub': 'Mira exactamente lo que recibirás — descarga un ejemplo de cada análisis escrito',
+    'reports.dl': 'Descargar PDF',
+    'reports.note': 'Los PDF de ejemplo se agregan a medida que están disponibles. Para solicitar uno antes, solo <a href="#contact">ponte en contacto</a>.',
+    'rep1.h3': 'Ejemplo de Carta Natal',
+    'rep1.desc': 'Un ejemplo anonimizado del análisis completo de carta natal, para que conozcas la profundidad y el estilo de lo que recibirás.',
+    'rep2.h3': 'Ejemplo de Tránsitos y Progresiones',
+    'rep2.desc': 'Mira cómo se interpretan y presentan los ciclos planetarios actuales en un análisis escrito de tránsitos y progresiones.',
+    'rep3.h3': 'Ejemplo de Sinastría',
+    'rep3.desc': 'Un ejemplo de análisis de relación entre dos cartas — cómo se exploran la compatibilidad, las dinámicas y las áreas de crecimiento.',
+
+    // Newsletter
+    'news.h2': 'La Carta Mensual de Tránsitos',
+    'news.sub': 'Tránsitos astrológicos y reflexiones, entregados en tu bandeja de entrada una vez al mes',
+    'news.tier': 'Suscripción Mensual al Boletín',
+    'news.per': '/mes',
+    'news.ul': '<li>Los principales tránsitos astrológicos del mes, explicados</li><li>Lo que el cielo del mes significa para cada signo</li><li>Orientaciones de luna nueva y luna llena</li><li>Escrito en lenguaje claro y psicológicamente fundamentado</li><li>Cancela cuando quieras</li>',
+    'news.btn': 'Suscribirse',
+    'news.note': 'Pago seguro y cancelación fácil, gestionados por nuestra plataforma de boletín.',
+
+    // Classes
+    'classes.h2': 'Cursos y Círculo de Miembros',
+    'classes.sub': 'Aprende astrología en un ambiente estructurado y acogedor',
+    'classes.intro': 'Los cursos están en desarrollo — los temas planeados incluyen fundamentos de astrología psicológica, lectura de carta natal y técnicas predictivas. Probablemente estarán alojados en Patreon, donde también está tomando forma un círculo de miembros con contenido exclusivo.',
+    'classes.soon': 'Cursos y Círculo de Miembros — Próximamente',
+    'classes.cta': 'Suscríbete al Boletín para Novedades',
+
+    // Blog
+    'blog.h2': 'Últimas del Blog',
+    'blog.sub': 'Reflexiones sobre tránsitos, trabajo con cartas y la vida astrológica',
+    'blog.all': 'Ver Todos los Posts',
+    'blogpage.h2': 'Reflexiones Cósmicas',
+    'blogpage.sub': 'Artículos, pronósticos y reflexiones del reino astrológico',
+
+    // Contact
+    'contact.title': 'Hablemos',
+    'contact.desc': '¿Tienes alguna pregunta sobre una lectura o informe, o quieres reservar? Envía un mensaje abajo — será un placer saber de ti.',
+    'contact.phName': 'Tu nombre',
+    'contact.phEmail': 'Tu correo electrónico',
+    'contact.phMessage': 'Tu mensaje',
+    'contact.send': 'Enviar Mensaje',
+
+    // Footer
+    'footer.text': '© 2026 Prema Moksha Astrology. Todos los derechos reservados. | Hecho con amor cósmico ✦'
+};
+
+const DICTS = { pt: PT, es: ES };
+const LANG_TAGS = { en: 'en', pt: 'pt-BR', es: 'es' };
+
 // Cache the original English from the DOM on first load
 const EN = {};
 const EN_PH = {};
 
 function currentLang() {
-    return localStorage.getItem(LANG_KEY) || 'en';
+    const lang = localStorage.getItem(LANG_KEY) || 'en';
+    return DICTS[lang] || lang === 'en' ? lang : 'en';
 }
 
 function applyLang(lang) {
-    document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
+    document.documentElement.lang = LANG_TAGS[lang] || 'en';
+    const dict = DICTS[lang];
 
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
-        if (lang === 'pt' && PT[key] !== undefined) {
-            el.innerHTML = PT[key];
-        } else if (lang === 'en' && EN[key] !== undefined) {
+        if (dict && dict[key] !== undefined) {
+            el.innerHTML = dict[key];
+        } else if (EN[key] !== undefined) {
             el.innerHTML = EN[key];
         }
     });
 
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
         const key = el.getAttribute('data-i18n-placeholder');
-        if (lang === 'pt' && PT[key] !== undefined) {
-            el.placeholder = PT[key];
-        } else if (lang === 'en' && EN_PH[key] !== undefined) {
+        if (dict && dict[key] !== undefined) {
+            el.placeholder = dict[key];
+        } else if (EN_PH[key] !== undefined) {
             el.placeholder = EN_PH[key];
         }
     });
 
-    const toggle = document.getElementById('langToggle');
-    if (toggle) toggle.textContent = lang === 'en' ? 'PT' : 'EN';
+    document.querySelectorAll('#langSwitch button').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -146,14 +244,12 @@ document.addEventListener('DOMContentLoaded', () => {
         EN_PH[el.getAttribute('data-i18n-placeholder')] = el.placeholder;
     });
 
-    const toggle = document.getElementById('langToggle');
-    if (toggle) {
-        toggle.addEventListener('click', () => {
-            const next = currentLang() === 'en' ? 'pt' : 'en';
-            localStorage.setItem(LANG_KEY, next);
-            applyLang(next);
+    document.querySelectorAll('#langSwitch button').forEach(btn => {
+        btn.addEventListener('click', () => {
+            localStorage.setItem(LANG_KEY, btn.dataset.lang);
+            applyLang(btn.dataset.lang);
         });
-    }
+    });
 
     applyLang(currentLang());
 });
