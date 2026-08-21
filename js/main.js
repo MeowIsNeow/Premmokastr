@@ -1,10 +1,9 @@
 // ===== CONFIG =====
-// Replace these with your GitHub username and repo name after creating your repo
-const GITHUB_OWNER = 'YOUR_GITHUB_USERNAME';
-const GITHUB_REPO = 'YOUR_REPO_NAME';
+const GITHUB_OWNER = 'MeowIsNeow';
+const GITHUB_REPO = 'Premmokastr';
 const GITHUB_BRANCH = 'main';
 
-// ===== UI STRINGS (EN / PT) =====
+// ===== UI STRINGS (EN / PT / ES) =====
 const LANG = localStorage.getItem('cw-lang') || 'en';
 const STR = {
     en: {
@@ -22,7 +21,7 @@ const STR = {
         untitled: 'Untitled',
         sending: 'Sending...',
         sent: 'Message sent! I\'ll get back to you soon. ✦',
-        sendFailed: 'Something went wrong. Please try again or email hello@premamokshaastrology.com directly.'
+        sendFailed: 'Something went wrong. Please try again or email premamokshaastrology@gmail.com directly.'
     },
     pt: {
         loadingLatest: 'Carregando últimos posts...',
@@ -39,7 +38,24 @@ const STR = {
         untitled: 'Sem título',
         sending: 'Enviando...',
         sent: 'Mensagem enviada! Responderei em breve. ✦',
-        sendFailed: 'Algo deu errado. Tente novamente ou escreva diretamente para hello@premamokshaastrology.com.'
+        sendFailed: 'Algo deu errado. Tente novamente ou escreva diretamente para premamokshaastrology@gmail.com.'
+    },
+    es: {
+        loadingLatest: 'Cargando últimos posts...',
+        loadingPosts: 'Cargando posts...',
+        loadingPost: 'Cargando post...',
+        needSetup: 'Los últimos posts aparecerán aquí cuando el repositorio de GitHub esté conectado.',
+        needSetupBlog: 'Los posts aparecerán aquí cuando el repositorio de GitHub esté conectado.',
+        needSetupPost: 'El post aparecerá aquí cuando el repositorio de GitHub esté conectado.',
+        setupHint: 'Actualiza js/main.js con tu usuario de GitHub y nombre del repositorio.',
+        loadError: 'No se pudieron cargar los posts. Verifica que el repositorio de GitHub esté configurado correctamente.',
+        postError: 'No se pudo cargar este post. Puede haber sido eliminado o renombrado.',
+        readMore: 'Leer Artículo',
+        backToPosts: '← Volver a Todos los Posts',
+        untitled: 'Sin título',
+        sending: 'Enviando...',
+        sent: '¡Mensaje enviado! Te responderé pronto. ✦',
+        sendFailed: 'Algo salió mal. Inténtalo de nuevo o escribe directamente a premamokshaastrology@gmail.com.'
     }
 }[LANG] || {};
 
