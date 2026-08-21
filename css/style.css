@@ -6,10 +6,10 @@
     --violet: #c9bc9c;
     --gold: #a8842c;
     --gold-light: #8a6d1a;
-    --gold-dim: #655718;
-    --cream: #1c1229;
-    --star-white: #241a30;
-    --ink: #2b1a45;
+    --gold-dim: #574a12;
+    --cream: #140d1f;
+    --star-white: #1a131f;
+    --ink: #221637;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,7 +33,7 @@ p {
     letter-spacing: 0.01em;
     color: var(--star-white);
 }
-p a, .post-content a { text-decoration: underline; text-underline-offset: 3px; color: #66530d; font-weight: 700; }
+p a, .post-content a { text-decoration: underline; text-underline-offset: 3px; color: #5c4b0a; font-weight: 700; }
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
     outline: 2px solid var(--gold); outline-offset: 2px;
 }
