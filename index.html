@@ -22,7 +22,9 @@
             <li><a href="#classes" data-i18n="nav.classes">Classes</a></li>
             <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
             <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
-            <li><button class="lang-toggle" id="langToggle" aria-label="Switch language">PT</button></li>
+            <li><div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
+                <button data-lang="en">EN</button><button data-lang="pt">PT</button><button data-lang="es">ES</button>
+            </div></li>
         </ul>
         <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
     </nav>
@@ -30,9 +32,8 @@
     <section class="hero" id="home">
         <div class="stars" id="stars"></div>
         <div class="hero-content">
-            <p class="hero-subtitle" data-i18n="hero.subtitle">Psychological Astrology</p>
-            <h1 data-i18n="hero.title">Understand the Patterns <span>Shaping Your Life</span></h1>
-            <p class="hero-desc" data-i18n="hero.desc">Natal charts, transits, and synastry readings grounded in the Liz Greene tradition — enriched by over twenty years of therapeutic practice in Traditional Chinese Medicine, yoga, and Ayurveda.</p>
+            <h1 data-i18n="hero.title">The Cosmos <span>Speaks</span></h1>
+            <p class="hero-desc" data-i18n="hero.desc">Natal charts, transits, and synastry readings — enriched by over twenty years of therapeutic practice in Traditional Chinese Medicine, yoga, and Ayurveda.</p>
             <div class="hero-buttons">
                 <a href="#shop" class="btn btn-gold" data-i18n="hero.book">Book a Reading</a>
                 <a href="#reports" class="btn" data-i18n="hero.samples">View Sample Reports</a>
@@ -114,26 +115,7 @@
                     </ul>
                     <a href="#" class="btn btn-gold" data-i18n="shop.book">Book Now</a>
                 </div>
-                <div class="shop-card fade-in">
-                    <h3 data-i18n="svc5.h3">Solar Return</h3>
-                    <div class="price-tag" style="color: var(--gold-dim);">Soon</div>
-                    <p data-i18n="svc5.desc">Your year-ahead chart, cast for the exact moment the Sun returns to its natal position — a map of the themes and opportunities of your personal new year.</p>
-                    <ul data-i18n="svc5.ul">
-                        <li>✦ Year-ahead forecast</li>
-                        <li>✦ Available soon</li>
-                    </ul>
-                    <span class="btn" style="opacity: 0.5; cursor: default;" data-i18n="shop.soon">Coming Soon</span>
-                </div>
-                <div class="shop-card fade-in">
-                    <h3 data-i18n="svc6.h3">Horary Astrology</h3>
-                    <div class="price-tag" style="color: var(--gold-dim);">Soon</div>
-                    <p data-i18n="svc6.desc">An answer to a specific question, read from a chart cast for the very moment the question is asked. One of astrology's oldest and most precise arts.</p>
-                    <ul data-i18n="svc6.ul">
-                        <li>✦ Focused, specific questions</li>
-                        <li>✦ Available soon</li>
-                    </ul>
-                    <span class="btn" style="opacity: 0.5; cursor: default;" data-i18n="shop.soon">Coming Soon</span>
-                </div>
+
             </div>
         </div>
     </section>
@@ -172,17 +154,17 @@
     <section class="subscription" id="subscription">
         <div class="subscription-content">
             <div class="section-header fade-in">
-                <h2 data-i18n="news.h2">The Weekly Transit Letter</h2>
+                <h2 data-i18n="news.h2">The Monthly Transit Letter</h2>
                 <div class="divider"></div>
-                <p data-i18n="news.sub">Astrological transits and insights, delivered to your inbox once a week</p>
+                <p data-i18n="news.sub">Astrological transits and insights, delivered to your inbox once a month</p>
             </div>
             <div class="tiers tiers-single">
                 <div class="tier featured fade-in">
-                    <h3 data-i18n="news.tier">Weekly Subscriber</h3>
-                    <div class="price">$5<span data-i18n="news.per">/week</span></div>
+                    <h3 data-i18n="news.tier">Monthly Newsletter Subscriber</h3>
+                    <div class="price">$5<span data-i18n="news.per">/month</span></div>
                     <ul data-i18n="news.ul">
-                        <li>The week's major astrological transits, explained</li>
-                        <li>What the week's sky means for each sign</li>
+                        <li>The month's major astrological transits, explained</li>
+                        <li>What the month's sky means for each sign</li>
                         <li>New & full moon guidance</li>
                         <li>Written in plain, psychologically grounded language</li>
                         <li>Cancel anytime</li>
@@ -244,7 +226,7 @@
                 <button type="submit" class="btn btn-gold" data-i18n="contact.send">Send Message</button>
                 <p id="formStatus" class="form-status"></p>
             </form>
-            <p class="fade-in contact-email">hello@premamokshaastrology.com</p>
+            <p class="fade-in contact-email">premamokshaastrology@gmail.com</p>
             <div class="social-links fade-in">
                 <a href="#" title="Instagram">📷</a>
                 <a href="#" title="TikTok">🎵</a>
