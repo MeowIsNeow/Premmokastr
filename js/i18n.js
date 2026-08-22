@@ -72,10 +72,10 @@ const PT = {
 
     // Newsletter
     'news.h2': 'A Carta Mensal de Trânsitos',
-    'news.sub': 'Trânsitos astrológicos e reflexões, entregues na sua caixa de entrada uma vez por mês',
-    'news.tier': 'Assinatura Mensal da Newsletter',
+    'news.sub': 'Trânsitos astrológicos e reflexões, entregues na sua caixa de entrada sempre que o céu tiver algo a dizer — uma ou mais vezes por mês, dependendo dos trânsitos',
+    'news.tier': 'Newsletter Mensal',
     'news.per': '/mês',
-    'news.ul': '<li>Os principais trânsitos astrológicos do mês, explicados</li><li>O que o céu do mês significa para cada signo</li><li>Orientações de lua nova e lua cheia</li><li>Escrito em linguagem acessível e psicologicamente fundamentada</li><li>Cancele quando quiser</li>',
+    'news.ul': '<li>Os principais trânsitos astrológicos do mês, explicados</li><li>O que o céu do mês significa para cada signo</li><li>Orientações de lua nova e lua cheia</li>',
     'news.btn': 'Assinar',
     'news.note': 'Pagamento seguro e cancelamento fácil, gerenciados pela nossa plataforma de newsletter.',
 
@@ -167,10 +167,10 @@ const ES = {
 
     // Newsletter
     'news.h2': 'La Carta Mensual de Tránsitos',
-    'news.sub': 'Tránsitos astrológicos y reflexiones, entregados en tu bandeja de entrada una vez al mes',
-    'news.tier': 'Suscripción Mensual al Boletín',
+    'news.sub': 'Tránsitos astrológicos y reflexiones, entregados en tu bandeja de entrada cada vez que el cielo tenga algo que decir — una o más veces al mes, dependiendo de los tránsitos',
+    'news.tier': 'Boletín Mensual',
     'news.per': '/mes',
-    'news.ul': '<li>Los principales tránsitos astrológicos del mes, explicados</li><li>Lo que el cielo del mes significa para cada signo</li><li>Orientaciones de luna nueva y luna llena</li><li>Escrito en lenguaje claro y psicológicamente fundamentado</li><li>Cancela cuando quieras</li>',
+    'news.ul': '<li>Los principales tránsitos astrológicos del mes, explicados</li><li>Lo que el cielo del mes significa para cada signo</li><li>Orientaciones de luna nueva y luna llena</li>',
     'news.btn': 'Suscribirse',
     'news.note': 'Pago seguro y cancelación fácil, gestionados por nuestra plataforma de boletín.',
 
