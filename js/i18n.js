@@ -17,6 +17,7 @@ const PT = {
 
     // Hero
     'hero.title': 'O Cosmos <span>Fala</span>',
+    'hero.tagline': 'Intérprete Profissional da Linguagem Cósmica da Astrologia',
     'hero.desc': 'Mapas natais, trânsitos e sinastrias — enriquecidos por mais de vinte anos de prática terapêutica em Medicina Tradicional Chinesa, yoga e Ayurveda.',
     'hero.book': 'Agendar uma Leitura',
     'hero.samples': 'Ver Relatórios de Exemplo',
@@ -117,6 +118,7 @@ const ES = {
 
     // Hero
     'hero.title': 'El Cosmos <span>Habla</span>',
+    'hero.tagline': 'Intérprete Profesional del Lenguaje Cósmico de la Astrología',
     'hero.desc': 'Cartas natales, tránsitos y sinastrías — enriquecidas por más de veinte años de práctica terapéutica en Medicina Tradicional China, yoga y Ayurveda.',
     'hero.book': 'Reservar una Lectura',
     'hero.samples': 'Ver Informes de Ejemplo',
